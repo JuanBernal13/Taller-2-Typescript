@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SeriesTv</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+           
+            <div class="row" id="primerTitulo">
+                <div class="col-12 col-md-6" style="margin-right: 20px;">
+                    <h3>Series tv  <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/09/29/16329138152949.jpg" alt="" style="width:30px; height:30px;"></h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                
+                <div class="col-12 col-md-6" id="col1">
+                    <h2>Peliculas</h2>
+                    <table class="table">
+                        <thead class="thead-dark">
+                           <tr>
+                              <th>#</th>
+                              <th>Titulo</th>
+                              <th>Canal</th>
+
+                              <th>Temporadas</th>
+                           </tr>
+                        </thead>
+                        <tbody id="peliculas">
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+
+                <div class="col-12 col-md-5" id="informacion" > 
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" alt="ImagenSerie" id="imagen">
+                        <div class="card-body" id="cuerpo">
+                            <h4>Titulo:</h4>
+                            <h6 id="tituloSerie"> </h6>
+                          <p class="card-text">Descripcion</p>
+                            <p class="card-text" id="descripcionSerie"></p>
+                            <a id="linkSerie"></a>
+                        </div>
+                    </div>
+                </div>                
+                    
+                    
+                
+            </div>
+
+        
+            
+        </div>
+        <script type="module" src="./scripts/course.js" ></script>
+        <script type="module" src="./scripts/dataCourses.js" ></script>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>

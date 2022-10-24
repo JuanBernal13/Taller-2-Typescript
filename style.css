@@ -1,0 +1,22 @@
+#TituloPelicula{
+    color:#2f3cec;
+}
+
+#informacion{
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+#imagen{
+    width: 360px;
+    height: 300px;
+}
+
+#columnasTabla{
+    background-color:#f5f5f5
+}
+
+#primerTitulo{
+    background-color:#5600f5;
+    color: #ffffff;
+}
